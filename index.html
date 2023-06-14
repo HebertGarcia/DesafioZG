@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio ZG</title>
+    <script src="./zg.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="container"> <!--Container formanndo um quadrado na tela-->
+
+    <h1 class="texth1">Desafio da música do patinho</h1>
+
+ 
+  <label for="numero">Digite o número de patinhos:</label>
+  <input type="number" id="numero"> <!--No arquivo JS -> Método getElementById("numero") do objeto "document". Essa linha assume que existe um elemento HTML com o id "numero" que contém um valor numérico.-->
+  <button class="button" onclick="reproduzir()">Music Play</button> <!--Botão "Music Play" que ao clicar aciona no arquivo JS -> A função "reproduzir()"-->
+
+
+  <div id="resultado"></div> <!--Exibi na tela o resultado-->
+   
+</div>
+
+    <img src="./pato.png" class="img" alt="pato" width="100" height="100">
+   
+</body>
+</html>
+
