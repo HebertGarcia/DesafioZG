@@ -27,6 +27,20 @@ function reproduzir() {
       document.getElementById("resultado").innerHTML += `<p>${linha4}</p>`;
     }
   }
+
+  const linha9 = "Puxa!"
+  const linha10 = "A mamãe patinha"
+  const linha11 = "Ficou tão triste naquele dia"
+  const linha12 = "Aonde será que estavam seus filhotinhos?"
+  const linha13 = "Mas essa história vai ter um final feliz"
+  const linha14 = "Sabe por quê?"
+
+  document.getElementById("resultado").innerHTML += `<p>${linha9}</p>`;
+  document.getElementById("resultado").innerHTML += `<p>${linha10}</p>`;
+  document.getElementById("resultado").innerHTML += `<p>${linha11}</p>`;
+  document.getElementById("resultado").innerHTML += `<p>${linha12}</p>`;
+  document.getElementById("resultado").innerHTML += `<p>${linha13}</p>`;
+  document.getElementById("resultado").innerHTML += `<p>${linha14}</p>`;
   
   //Após o loop "for", são criadas mais quatro variáveis de texto
   const linha5 = "A mamãe patinha foi procurar";
